@@ -1,0 +1,28 @@
+.navbar-brand{
+    cursor: default;
+}
+
+.welcome{
+    margin-top: 72px;
+    width: 100%;
+}
+
+.teks{
+    display: flex;
+    color: white;
+    font-size: 100px;
+    justify-content: center;
+    text-align: center;
+    margin-top: 300px;
+}
+
+@media (max-width: 768px) {
+    .navbar-nav{
+        text-align: center;
+        margin-top: 15px;
+    }
+
+    .teks{
+        font-size: 50px;
+    }
+}
